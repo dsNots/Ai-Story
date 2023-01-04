@@ -114,7 +114,7 @@ const handleSubmit = async (e) => {
 
 
 
-    const response = await fetch('https://ai-yzev.onrender.com', {
+    const response = await fetch('https://ai-story.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
