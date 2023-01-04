@@ -10,7 +10,7 @@ let loadInterval
 
 setTimeout(function () {
     document.querySelector(".overlay").remove();
-}, 104000); // 5000 milliseconds = 5 seconds
+}, 100000); // 5000 milliseconds = 5 seconds
 
 
 function loader(element) {
