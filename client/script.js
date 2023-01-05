@@ -98,10 +98,6 @@ const handleSubmit = async (e) => {
     }, 0);
     console.log(numWords); // Output: 6
 
-
-
-
-
     // user's chatstripe
     chatContainer.innerHTML += chatStripe(false, 'USER: ' + data.get('prompt'))
 
